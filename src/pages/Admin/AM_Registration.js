@@ -23,8 +23,8 @@ export default function Am_Registration() {
     }
 
       // Validate mobile number
-      if (!/^\d{10,12}$/.test(formdetails.mobile)) {
-        swal("Mobile number should be between 10 and 12 digits.");
+      if (!/^\d{10}$/.test(formdetails.mobile)) {
+        swal("Mobile number should be between 10 digits.");
         return; // Exit function if validation fails
       }
 
